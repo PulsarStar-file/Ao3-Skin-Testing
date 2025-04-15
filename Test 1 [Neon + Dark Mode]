@@ -1,3 +1,25 @@
+#header .logo {
+
+display: none;
+
+}
+
+#header h1.heading a::before {
+
+display: inline-block;
+
+width: 320px;
+
+height: 50px;
+
+content: " ";
+
+background-image: url("https://64.media.tumblr.com/7bba2404f3ba03df470499701b920ab0/e17a337685fece4c-77/s640x960/531b098ea5fe8de580b30b2f162ba922da48918c.png");
+
+background-size: cover;
+
+}
+
 #header {
   background-image: url("https://space-bar.neocities.org/kirokaze-art.gif");
   background-repeat: no-repeat;
@@ -393,4 +415,10 @@ dd.relationship.tags a {
 
 .blurb:not(:has(dd[lang$="en"])) {
   display: none !important;
+}
+
+[href$="/logout"] {
+
+display: none !important;
+
 }
